@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding: 0;
+    background-color: darkslategray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    height: 90vb;
+    width: 70%;
+
+    justify-content: center;
+    align-items: center;
+    
+    
+    justify-content: space-evenly;
+}
+
+.controllers{
+    display:flex;
+    justify-content: center;
+    width: auto;
+}
+
+ul{
+    align-self: flex-start;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+
+    padding-right: 20px;
+    
+    
+}
+
+
+
+.color{
+    height: 100px;
+    width: 100px;
+    
+}
+.colorInput{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 23px;
+    background-color: darkslategray;
+}
+
+.rainbowMode{
+    background-color:cyan;
+    font-weight: bolder;
+    font-size: medium;
+    padding: 10px 30px;
+    border-radius: 15px;
+    transition: .2s;
+    
+}
+
+.rainbowMode:hover{
+    background-color:rgb(4, 170, 170) ;
+
+}
+
+.rainbowMode:active{
+    box-shadow: 0px 0px 35px black;
+    
+}
+
+
+.eraserMode{
+    background-color:blueviolet;
+    font-weight: bolder;
+    font-size: medium;
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+
+
+.eraserMode:hover{
+    background-color:rgb(112, 24, 195) ;
+    
+}
+
+.eraserMode:active{
+    box-shadow: 0px 0px 35px black;
+    
+}
+
+.clearMode{
+    background-color:yellowgreen;
+    font-weight: bolder;
+    font-size: medium;
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+
+
+.clearMode:hover{
+    background-color:rgb(122, 172, 23) ;
+   
+}
+
+.clearMode:active{
+    box-shadow: 0px 0px 35px black;
+    
+}
+
+
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    color:green;
+}
+
+
+.value{
+    margin: 0 ;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+
+
+
+
+
+
+.main{
+    
+    border:solid black 2px;
+    width: 600px;
+    height: 600px;
+    padding:0;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
